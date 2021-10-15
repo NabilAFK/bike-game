@@ -43,7 +43,7 @@ var Player =  function(){
 
         if(!playing || grounded && Math.abs(this.rot) > Math.PI * 0.5){
             playing = false;
-            this.rSpeed = 5;
+            this.rSpeed = 4;
             k.ArrowUp = 1;
             this.x -= speed * 5;
         }
