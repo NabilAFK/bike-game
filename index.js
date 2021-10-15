@@ -112,6 +112,6 @@ function restart(){
 }
 loop();
 
-var instructions = document.createElement("div");
-instructions.innerHTML += "[up] [down] = accelerate <br> [Left] [Rigth] = rotate. <br> NNB: Playable only on PC. <br> Courtesy: Water Coolers.";
+var instructions = document.createElement("div");N
+instructions.innerHTML += "[UP] & [DOWN] to accelerate. <br> [LEFT] & [RIGHT] to rotate. <br> Info: Playable only on PC. Courtesy of NabilAFK & Water Coolers.";
 document.body.appendChild(instructions);
